@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CB479C7-1D96-48C6-A192-514643E5F678}"
+	ProjectSection(SolutionItems) = preProject
+		global_assembly_info.cs = global_assembly_info.cs
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpleoauth", "simpleoauth\simpleoauth.csproj", "{5760B5A7-8725-4529-874E-37E81ECF03AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "www", "www", "{1F292F0F-B770-4BB5-B960-DD4ED075AC00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "site", "www\site\site.csproj", "{E7F5FF43-419F-44F5-80A9-69F648642E94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5760B5A7-8725-4529-874E-37E81ECF03AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5760B5A7-8725-4529-874E-37E81ECF03AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5760B5A7-8725-4529-874E-37E81ECF03AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5760B5A7-8725-4529-874E-37E81ECF03AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F5FF43-419F-44F5-80A9-69F648642E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F5FF43-419F-44F5-80A9-69F648642E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F5FF43-419F-44F5-80A9-69F648642E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F5FF43-419F-44F5-80A9-69F648642E94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7F5FF43-419F-44F5-80A9-69F648642E94} = {1F292F0F-B770-4BB5-B960-DD4ED075AC00}
+	EndGlobalSection
+EndGlobal

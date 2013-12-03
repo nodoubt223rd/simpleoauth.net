@@ -1,0 +1,60 @@
+﻿* {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 100%;
+    padding: 8px;
+    font-weight: normal;
+    color: black;
+}
+
+h1 {
+    margin-bottom: 16px;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 16px;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+code {
+    font-family: monospace;
+}
+
+.errors {
+    overflow-x: scroll;
+    margin: 8px 0;
+    border: 1px solid #880000;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #ffeeee;
+    font-family: monospace;
+    color: #880000;
+}
+
+.vtop16 {
+    margin-top: 16px;
+}
+
+.button {
+    cursor: pointer;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-color: #eee;
+    padding: 8px;
+}

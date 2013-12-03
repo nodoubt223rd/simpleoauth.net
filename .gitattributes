@@ -1,0 +1,10 @@
+# normalize text files!
+text eol=lf
+
+# keep these Windows line endings and use hints
+*.cmd eol=crlf
+*.cs eol=crlf diff=csharp
+*.csproj eol=crlf merge=union
+*.resx merge=union
+*.sln eol=crlf merge=union
+

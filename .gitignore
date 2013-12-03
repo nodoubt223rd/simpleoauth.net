@@ -1,0 +1,45 @@
+# generic dirs
+
+[Bb]in/
+[Oo]bj/
+[Dd]eploy/
+
+# generic files
+
+*~
+~$*
+*.~
+*_back
+*.7z
+*.bz2
+*.gz
+*.log
+*.out
+*.rar
+*.swp
+*.tar
+*.zip
+
+.DS_Store
+[Dd]esktop.ini
+[Tt]humbs.db
+
+# various VS artifacts
+
+_[Uu]pgrade/
+[Aa]spnet_[Cc]lient/
+[Bb]ackup/
+[Pp]ublish[Pp]rofiles/
+[Tt]est[Rr]esults/
+
+*.cache
+*.layout
+*.[Pp]ublish.xml
+*.suo
+*.[Uu]pgrade[Ll]og.*
+*.user
+*.sass-cache
+*.mswwsettings
+
+[Ss]tyle[Cc]op.[Cc]ache
+
